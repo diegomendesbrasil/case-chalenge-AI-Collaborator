@@ -55,7 +55,7 @@ The DevOps repository contains the entire project that will be executed and orch
 
 ### 2. DataDog  
 
-![Reference](img/datafactory.png)
+![Reference](img/datadog.png)
 
 ### 3. Conclusion
 
