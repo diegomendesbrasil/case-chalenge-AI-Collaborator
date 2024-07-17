@@ -4,11 +4,11 @@ O cliente apresentou a necessidade de ingerir dados do AzureDevOps para tomada d
 
 A arquitetura proposta para esse projeto pode ser observada abaixo:
 
-![Reference](img/ArchP1.png)
+![Reference](dmb-dbricks-devops/img/ArchP1.png)
 
 Primeiramente criei uma arquitetura simplificada para leitura de dados da API utilizando databricks para ingestao e data factory para orquestracao e datadog para monitoramento do ambiente.
 
-![Reference](img/datalake.png)
+![Reference](dmb-dbricks-devops/img/datalake.png)
 
 Para datalake utilizei a seguinte estratégia: 
 
@@ -51,7 +51,7 @@ DevOps:
   consume
   
   O repositorio devops contem todo o projeto que será executado e orquestrado no data factory.
-  ![Reference](img/datafactory.png)
+  ![Reference](dmb-dbricks-devops/img/datafactory.png)
 
 ### 2. Conclusion
 
